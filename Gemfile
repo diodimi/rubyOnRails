@@ -11,6 +11,16 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'bootstrap_form'
 
+
+# TESTING
+gem 'rspec-rails', '~> 3.6'
+gem 'factory_girl_rails'
+gem 'rails-controller-testing'
+gem 'headless'
+gem 'poltergeist'
+gem 'database_cleaner'
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 # Use postgresql as the database for Active Record
