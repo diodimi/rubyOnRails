@@ -41,7 +41,7 @@ RSpec.configure do |config|
   # instead of true.
   config.use_transactional_fixtures = false
 
-  config.before(:suite) do
+    config.before(:suite) do
     DatabaseCleaner.clean_with(:truncation)
   end
  
@@ -60,15 +60,6 @@ RSpec.configure do |config|
   config.after(:each) do
     DatabaseCleaner.clean
   end
-
-  require 'capybara/poltergeist'
-  require 'factory_girl_rails'
-  require 'capybara/rspec'
-
-  config.include Devise::Test::IntegrationHelpers, type: :feature
-  config.include FactoryGirl::Syntax::Methods
-  Capybara.javascript_driver = :poltergeist
-  Capybara.server = :puma 
 
   # RSpec Rails can automatically mix in different behaviours to your tests
   # based on their file location, for example enabling you to call `get` and
@@ -89,4 +80,13 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+  require 'capybara/poltergeist'
+  require 'factory_girl_rails'
+  require 'capybara/rspec'
+
+  config.include Devise::Test::IntegrationHelpers, type: :feature
+  config.include FactoryGirl::Syntax::Methods
+  Capybara.javascript_driver = :poltergeist
+  Capybara.server = :puma 
+
 end
