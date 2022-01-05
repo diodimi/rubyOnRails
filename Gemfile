@@ -11,7 +11,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'bootstrap_form'
 
-
+gem 'faker'
 # # TESTING
 # gem 'rspec-rails', '~> 3.6'
 # gem 'factory_girl_rails'
