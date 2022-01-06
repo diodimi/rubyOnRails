@@ -20,7 +20,7 @@ gem 'faker'
 # gem 'poltergeist'
 # gem 'database_cleaner'
 
-
+gem 'will_paginate', '~> 3.1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 # Use postgresql as the database for Active Record
