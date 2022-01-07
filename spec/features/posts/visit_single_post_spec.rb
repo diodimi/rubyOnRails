@@ -25,7 +25,6 @@ RSpec.feature "Visit single post", :type => :feature do
 
 
     page.find('.interested a',visible: false).trigger("click")
-    print page.html
     
     expect(page).to have_selector('.single-post-card p',visible:false, text: post.content)
   end

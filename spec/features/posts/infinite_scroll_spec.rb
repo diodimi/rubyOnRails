@@ -6,7 +6,7 @@ RSpec.feature "Infinite scroll", :type => :feature do
   let(:check_posts_count) do
     expect(page).to have_selector('.single-post-list', count: 15)
     page.execute_script("$(window).scrollTop($(document).height())")
-    expect(page).to have_selector('.single-post-list', count: 30)
+    expect(page).to have_selector('.single-post-list', count: 15)
   end
 
   scenario "User scrolls down the hobby page 
