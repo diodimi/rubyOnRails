@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'
   end
-  
+
 end
 Rails.application.routes.draw do
   devise_scope :user do
@@ -21,8 +21,8 @@ Rails.application.routes.draw do
 
 
 
-devise_scope :user do  
-   get '/users/sign_out' => 'devise/sessions#destroy'     
+devise_scope :user do
+   get '/users/sign_out' => 'devise/sessions#destroy'
 end
 end
 
@@ -34,5 +34,18 @@ Rails.application.routes.draw do
       get 'study'
       get 'team'
   end
+end
+end
+
+
+Rails.application.routes.draw do
+
+namespace :private do
+  resources :conversations, only: [:create] do
+    member do
+      post :close
+    end
+  end
+  resources :messages, only: [:index, :create]
 end
 end

@@ -1,0 +1,28 @@
+# frozen_string_literal: true
+
+module Private
+  class ConversationsController < ApplicationController
+    skip_before_action :verify_authenticity_token
+
+    def create
+      recipient_id = Post.find(params[:post_id]).user.id
+      @conversation = Private::Conversation.new(sender_id: current_user.id,
+                                                recipient_id: recipient_id)
+      if @conversation.save
+        Private::Message.create(user_id: current_user.id,
+                                conversation_id: @conversation.id,
+                                body: params[:message_body])
+
+        respond_to do |format|
+
+          format.html{ render partial: 'posts/show/contact_user//success' }
+          # format.js { render partial: 'posts/show/contact_user/message_form/success' }
+        end
+      else
+        respond_to do |format|
+          format.js { render partial: 'posts/show/contact_user/message_form/fail' }
+        end
+      end
+    end
+  end
+end
