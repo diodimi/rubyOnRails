@@ -15,7 +15,7 @@ module Private
 
         respond_to do |format|
 
-          format.html{ render partial: 'posts/show/contact_user//success' }
+          format.html{ render partial: 'posts/show/contact_user/success' }
           # format.js { render partial: 'posts/show/contact_user/message_form/success' }
         end
       else
@@ -24,5 +24,17 @@ module Private
         end
       end
     end
+
+    private
+
+    def add_to_conversations
+      session[:private_conversations] ||= []
+      session[:private_conversations] << @conversation.id
+    end
+
+    def already_added?
+      session[:private_conversations].include?(@conversation.id)
+    end
+
   end
 end

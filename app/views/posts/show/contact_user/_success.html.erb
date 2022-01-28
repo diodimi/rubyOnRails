@@ -19,7 +19,9 @@
 
 <body>
 <%= render 'layouts/navigation' %>
-<div class="contact-user"><div class="contacted-user">Message has been sent</div></div>
+<div class="contact-user"><div class="contacted-user">Message has been sent</div><%= render 'private/conversations/open.js.erb' %></div>
+<%= render 'layouts/application/private_conversations_windows' %>
+
 </body>
 <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </html>
