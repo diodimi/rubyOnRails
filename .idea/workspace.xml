@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c152d061-d1cb-46c3-8d16-a6c3822eec5d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/rubyOnRails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rubyOnRails.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/private/conversation.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/private/conversation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/shared/conversation.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/shared/conversation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/conversations/conversation.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/conversations/conversation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/conversations/messages_infinite_scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/conversations/messages_infinite_scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/conversations/option.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/conversations/position_and_visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/conversations/position_and_visibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/conversations/toggle_window.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/conversations/toggle_window.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/posts/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/posts/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/posts/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/posts/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/base/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base/default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/contacts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/group/conversations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/conversation_window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/conversation_window.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/home_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/home_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/layout/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/layout/navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/posts/branch_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/posts/branch_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/posts/home_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/posts/home_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/signup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/signup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/private/conversations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/responsive/desktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/responsive/desktop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/responsive/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/responsive/mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/private/conversation_channel.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/private/conversation_channel.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/messages.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/messages.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/group/conversations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/group/conversations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/private/conversations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/private/conversations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/success_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/group/conversations_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/group/conversations_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/navigation_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/navigation_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/pages_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/pages_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/posts_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/posts_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/private/conversations_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/private/conversations_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/private/messages_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/private/messages_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/shared/conversations_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/shared/conversations_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/shared/messages_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/shared/messages_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/channels/consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/channels/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/channels/private/conversation_channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/private/message_broadcast_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/private/message_broadcast_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/category.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/contact.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/contact.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/group.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/group/conversation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/group/conversation.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/private/conversation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/private/conversation.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/private/message.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/private/message.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/group/new_conversation_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/group/new_conversation_service.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/order_conversations_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/order_conversations_service.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/posts_for_branch_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/posts_for_branch_service.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/shared/_error_messages.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/group/conversations/_conversation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/group/conversations/_conversation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/group/conversations/conversation/_heading.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/group/conversations/conversation/_heading.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/group/conversations/conversation/_select_user.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application/_group_conversations_windows.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application/_group_conversations_windows.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application/_private_conversations_windows.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application/_private_conversations_windows.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/_collapsible_elements.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_non_signed_in_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_non_signed_in_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_signed_in_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/collapsible_elements/_signed_in_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/header/_dropdowns.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/header/_dropdowns.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/header/_home_button.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/header/_home_button.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/header/_toggle_button.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/header/_toggle_button.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/header/dropdowns/_conversation.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/header/dropdowns/conversations/_group.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/header/dropdowns/conversations/_group.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/navigation/header/dropdowns/conversations/_private.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/navigation/header/dropdowns/conversations/_private.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index/_side_menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index/_side_menu.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_branch.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_branch.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_posts_pagination_page.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_posts_pagination_page.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/branch/_categories.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/branch/_categories.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/branch/_search_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/branch/_search_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/branch/categories/_all_not_selected.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/branch/categories/_all_not_selected.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/branch/create_new_post/_not_signed_in.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/branch/create_new_post/_not_signed_in.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/branch/create_new_post/_signed_in.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/branch/create_new_post/_signed_in.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show/contact_user/_already_in_touch.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show/contact_user/_already_in_touch.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show/contact_user/_success.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show/contact_user/message_form/_fail.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show/contact_user/message_form/_success.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show/contact_user/message_form/_success.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/study.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/study.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/_conversation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/_conversation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/_open.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/_open.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/close.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/close.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/conversation/_heading.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/conversation/_heading.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/conversation/_request_status.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/conversation/_request_status.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/conversation/heading/_add_user_to_contacts.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/conversation/heading/_add_user_to_contacts.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/conversation/heading/_create_group_conversation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/conversation/heading/_create_group_conversation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/conversation/messages_list/_link_to_previous_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/conversation/messages_list/_link_to_previous_messages.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/conversation/request_status/_send_request.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/conversation/request_status/_send_request.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/conversations/conversation/request_status/_sent_by_recipient.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/conversations/conversation/request_status/_sent_by_recipient.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/messages/_load_more_messages.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/messages/_load_more_messages.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/messages/_message.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/messages/_message.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/private/messages/message/_new_date.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/private/messages/message/_new_date.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/load_more_messages/window/_add_link_to_messages.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/load_more_messages/window/an _append_messages.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spring" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/webpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/webpack-dev-server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/yarn" beforeDir="false" afterPath="$PROJECT_DIR$/bin/yarn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/permissions_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack/development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack/environment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack/production.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpacker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20211228153052_devise_create_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220105132555_create_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220105132604_create_categories.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220107163801_create_private_conversations.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220107163810_create_private_messages.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220128190657_create_contacts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220128201336_create_group_conversations.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220128201539_create_group_messages.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get," beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/contacts.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/contacts.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/group_messages.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/group_messages.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/private_conversations.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/private_conversations.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/posts/contact_user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/posts/contact_user_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/posts/infinite_scroll_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/posts/infinite_scroll_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/posts/visit_single_post_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/posts/visit_single_post_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/private/conversations/window_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/private/conversations/window_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/group/conversations_helper_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/group/conversations_helper_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/navigation_helper_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/navigation_helper_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/posts_helper_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/posts_helper_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/private/conversations_helper_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/private/conversations_helper_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/private/messages_helper_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/private/messages_helper_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/shared/conversations_helper_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/shared/conversations_helper_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/jobs/private/message_broadcast_job_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/jobs/private/message_broadcast_job_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/category_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/category_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/group/message_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/group/message_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/post_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/post_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/private/conversation_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/private/conversation_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/private/message_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/private/message_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/posts/branches_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/posts/branches_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/posts/create_new_post_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/services/order_conversations_service_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/services/order_conversations_service_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/services/posts_for_branch_service_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/services/posts_for_branch_service_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/channels/application_cable/connection_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/pages_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/pids/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24HpbsA7gqaKEZx7q5aLeMMef90" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/group/conversations" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c152d061-d1cb-46c3-8d16-a6c3822eec5d" name="Changes" comment="" />
+      <created>1643297456012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643297456012</updated>
+      <workItem from="1643297461214" duration="3587000" />
+      <workItem from="1643306928082" duration="2474000" />
+      <workItem from="1643311895318" duration="5114000" />
+      <workItem from="1643318768475" duration="4922000" />
+      <workItem from="1643331628585" duration="6360000" />
+      <workItem from="1643392300355" duration="12153000" />
+      <workItem from="1643475690743" duration="1243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
